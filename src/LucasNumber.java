@@ -7,6 +7,6 @@ public class LucasNumber {
         if (n == 2) {
             return 3;
         }
-        return 0;
+        return calculate(n - 1) + calculate(n - 2);
     }
 }
